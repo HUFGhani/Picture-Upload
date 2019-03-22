@@ -98,3 +98,6 @@ typings/
 .yarn-integrity
 .env
 .next
+
+#static content from the frontend
+/backend/src/main/resources/static/*
