@@ -12,6 +12,7 @@
 .idea/**/dbnavigator.xml
 .idea/**/gradle.xml
 .idea/**/libraries
+.idea/**/**
 cmake-build-debug/
 cmake-build-release/
 .idea/**/mongoSettings.xml
