@@ -1,4 +1,4 @@
-package io.github.hufghani.PictureUploader
+package io.github.hufghani.picture.uploader
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
