@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  picture-uploader:
+    image: io.github.hufghani/picture-uploader
+    ports:
+      - 8080:9000
+  prometheus:
+    image: prom/prometheus:v2.6.1
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus:/prometheus
+  grafana:
+    image: grafana/grafana:5.4.3
+    ports:
+      - 3000:3000
+    volumes:
+      - ./grafana:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=password
