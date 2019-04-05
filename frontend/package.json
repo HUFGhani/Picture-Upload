@@ -32,12 +32,15 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "gulp": "latest",
-    "gulp-util": "latest",
-    "gulp-sass": "latest",
     "gulp-coffee": "latest",
-    "gulp-uglify": "latest",
     "gulp-concat": "latest",
-    "gulp-connect": "latest"
+    "gulp-connect": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
   },
-  "proxy": "http://localhost:9000"
+  "proxy": "http://localhost:9000",
+  "installConfig": {
+    "pnp": false
+  }
 }

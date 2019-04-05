@@ -1,4 +1,4 @@
-package io.github.hufghani.picture.uploader
+package io.github.hufghani.picture.uploader.config
 
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory
 import org.springframework.boot.web.server.ErrorPage
